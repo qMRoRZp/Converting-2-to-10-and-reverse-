@@ -1,0 +1,13 @@
+def funcforcon():
+    con=input ('[Which?] <2> | <10>')
+    XX = ''
+    if con == '10' :
+        a = input ('Enter your number in binary :')
+        XX = int(a,2)
+        print("Your number in decimal is: ",XX)
+    elif con == "2":
+        a = input ('Enter your number in decimal :')
+        XX = bin(int(a))[2:]
+        print ("Your number in binary is :",XX)
+    else:
+        print("YOUR INPUT IS WRONG!")
